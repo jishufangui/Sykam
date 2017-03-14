@@ -11,7 +11,7 @@ namespace TModel
         /// 品牌ID
         /// </summary>
         public int BrandID
-        {
+        { 
             get;
             set;
         }
