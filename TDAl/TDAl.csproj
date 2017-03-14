@@ -82,6 +82,7 @@
     <Compile Include="sqlserver\InfoOperate.cs" />
     <Compile Include="sqlserver\NodeOperate.cs" />
     <Compile Include="sqlserver\ShopOperate.cs" />
+    <Compile Include="sqlserver\UserMemberOperate.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CommonLibrary\CommonLibrary.csproj">

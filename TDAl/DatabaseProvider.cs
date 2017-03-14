@@ -60,5 +60,11 @@ namespace TDAl
            string className = "TDAl." + path + ".BrandOperate";
            return (IBrandOperate)Assembly.Load("TDAl").CreateInstance(className);
        }
-   }
+
+        public IUserMemberOperate GetUserMemberOperate()
+        {
+            string className = "TDAl." + path + ".UserMemberOperate";
+            return (IUserMemberOperate)Assembly.Load("TDAl").CreateInstance(className);
+        }
+    }
 }
