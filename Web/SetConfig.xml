@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <Title value="Sykam">
+    <!-- 公司地址 -->
+  </Title>
+  <Tel value="0510-81815621  0510-81815622">
+    <!-- 公司电话 -->
+  </Tel>
+  <IPCNum value="ICP苏2211003361" href="http://www.wbstech.cn">
+    <!--  ICP备案号和链接 -->
+  </IPCNum>
+  <ServerTel value="转804">
+    <!--  客服电话 -->
+  </ServerTel>
+  <Interval value="600">
+    <!--提交信息间隔 单位秒-->
+  </Interval>
+  <Keyword value="Sykam">
+  </Keyword>
+  <Description value="Sykam">
+  </Description>
+  <TemplateFolder>Templates/Template/</TemplateFolder>
+  <LabelFolder>Templates/Label/</LabelFolder>
+</root>

@@ -1,0 +1,79 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #000; PADDING-TOP: 0px; BACKGROUND-COLOR: #fff
+}
+BODY {
+	FONT-SIZE: 12px; LINE-HEIGHT: 150%; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"
+}
+TD {
+	FONT-SIZE: 12px; LINE-HEIGHT: 150%; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"
+}
+INPUT {
+	FONT-SIZE: 12px;
+	FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif";
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+}
+SELECT {
+	FONT-SIZE: 12px; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"
+}
+TEXTAREA {
+	FONT-SIZE: 12px; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"
+}
+A:link {
+	COLOR: #036; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #036; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #f60; TEXT-DECORATION: underline
+}
+TABLE.position {
+	WIDTH: 100%
+}
+TR.position {
+	HEIGHT: 25px; BACKGROUND-COLOR: #f4f7fc
+}
+TD.position {
+	BORDER-RIGHT: #adceff 1px solid; PADDING-LEFT: 10px; BORDER-BOTTOM: #adceff 1px solid
+}
+TABLE.listTable {
+	WIDTH: 98%; BACKGROUND-COLOR: #ccc
+}
+TR.listHeaderTr {
+	FONT-WEIGHT: bold; HEIGHT: 30px; BACKGROUND-COLOR: #eee; TEXT-ALIGN: center
+}
+TR.listTr {
+	HEIGHT: 25px; BACKGROUND-COLOR: #fff; TEXT-ALIGN: center
+}
+TR.listAlternatingTr {
+	HEIGHT: 25px; BACKGROUND-COLOR: #f7f7f7; TEXT-ALIGN: center
+}
+TR.listFooterTr {
+	HEIGHT: 30px; BACKGROUND-COLOR: #eee; TEXT-ALIGN: center
+}
+TABLE.editTable {
+	WIDTH: 98%; BACKGROUND-COLOR: #e7e7e7
+}
+TR.editHeaderTr {
+	HEIGHT: 30px; BACKGROUND-COLOR: #eee
+}
+TD.editHeaderTd {
+	PADDING-LEFT: 20px; FONT-WEIGHT: bold
+}
+TR.editTr {
+	HEIGHT: 28px
+}
+TD.editLeftTd {
+	WIDTH: 150px; BACKGROUND-COLOR: #f7f7f7; TEXT-ALIGN: center
+}
+TD.editRightTd {
+	PADDING-LEFT: 10px; BACKGROUND-COLOR: #fff
+}
+TR.editFooterTr {
+	HEIGHT: 30px; BACKGROUND-COLOR: #eee
+}
+TD.editFooterTd {
+	PADDING-LEFT: 150px
+}

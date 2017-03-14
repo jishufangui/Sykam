@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <TopMenu title="后台首页" link="OperateIndex.aspx" id="1000" >
+    <SubMenu title="网站后台首页"  link="OperateIndex.aspx" linkStyle="display:none" id="1001" parentId="1000"></SubMenu>
+  </TopMenu>
+	<TopMenu title="网站信息管理" link="Info_List.aspx" id="2000" linkStyle="">
+		<SubMenu title="信息分类管理" link="InfoCate_List.aspx" linkStyle="" id="2001" parentId="2000"></SubMenu>
+    <SubMenu title="信息分类添加" link="InfoCate_Add.aspx" linkStyle="" id="2005" parentId="2000"></SubMenu>
+    <SubMenu title="信息分类修改" link="InfoCate_Mod.aspx" linkStyle="display:none" id="2006" parentId="2000"></SubMenu>
+		<SubMenu title="网站信息管理" link="Info_List.aspx" linkStyle="" id="2002" parentId="2000"></SubMenu>
+		<SubMenu title="网站信息添加" link="Info_Add.aspx" linkStyle="" id="2003" parentId="2000"></SubMenu>
+    <SubMenu title="网站信息修改" link="Info_Mod.aspx" linkStyle="display:none" id="2004" parentId="2000"></SubMenu>
+	</TopMenu>
+
+    <TopMenu title="品牌管理" link="Brand_List.aspx" id="4000" linkStyle="">
+        <SubMenu title="品牌管理" link="Brand_List.aspx" linkStyle="" id="4001" parentId="4000"></SubMenu>
+        <SubMenu title="品牌添加" link="Brand_Add.aspx" linkStyle="" id="4002" parentId="4000"></SubMenu>
+        <SubMenu title="品牌修改" link="Brand_Mod.aspx" linkStyle="display:none" id="4003" parentId="4000"></SubMenu>
+    </TopMenu>
+	<TopMenu title="网站管理" link="Admin_List.aspx" id="5000" linkStyle="">
+      <SubMenu title="网站seo设置" link="seo.aspx" linkStyle="" id="5001" parentId="5000"></SubMenu>
+     	<SubMenu title="后台用户管理" link="Admin_List.aspx" linkStyle="" id="5002" parentId="5000"></SubMenu>
+    	<SubMenu title="后台用户添加" link="Admin_Add.aspx" linkStyle="color:blue;" id="5003" parentId="5000"></SubMenu>
+      <SubMenu title="后台用户修改" link="Admin_Mod.aspx" linkStyle="color:blue;display:none" id="5003" parentId="5000"></SubMenu>
+      <SubMenu title="后台用户密码修改" link="Admin_Password_Mod.aspx" linkStyle="color:blue;display:none" id="5004" parentId="5000"></SubMenu>
+      <SubMenu title="用户权限修改" link="Competence_Mod.aspx" linkStyle="display:none" id="5005" parentId="5000"></SubMenu>
+	</TopMenu>
+  
+</root>

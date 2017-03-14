@@ -1,0 +1,162 @@
+﻿body ,th,td{
+	font:normal 12px 宋体; 
+}
+body  { margin:0px; background:#C4D8ED; margin:0px; padding:10px; 
+SCROLLBAR-FACE-COLOR: #72A3D0; SCROLLBAR-HIGHLIGHT-COLOR: #337ABB; 
+SCROLLBAR-SHADOW-COLOR: #337ABB; SCROLLBAR-DARKSHADOW-COLOR: #337ABB; 
+SCROLLBAR-3DLIGHT-COLOR: #337ABB; SCROLLBAR-ARROW-COLOR: #FFFFFF;
+SCROLLBAR-TRACK-COLOR: #337EC0; 
+}
+a { color: #135294; text-decoration: none; }
+a:hover { color: #ff6600; text-decoration: underline; }
+.td4 { height:24px; line-height:20px; background:#EEF7FD; font-size:12px; border:1px solid #fff; color:#135294; padding:2px; }
+.td5 { height:24px; line-height:20px; background:#F1F3F5; font-size:12px; border:1px solid #fff; color:#135294; padding:2px; }
+.td_title,th {
+	height:26px;
+	line-height:26px;
+	background:#fff;
+	color:#135294;
+	font-weight:bold;
+	border:1px solid #fff;
+	text-align:center;
+	padding:2px;
+}
+.td_left
+{
+	height:26px;
+	line-height:26px;
+	background:#fff;
+	color:#135294;
+	font-weight:bold;
+	border:1px solid #fff;
+	text-align:left;
+	padding:2px 2px 2px 15px;
+}
+.td_pager
+{
+	height:26px;
+	line-height:26px;
+	background:#fff;
+	color:#135294;
+	border:1px solid #fff;
+	text-align:left;
+	padding:2px 2px 2px 15px;
+}
+.td_bt {
+	height:26px;
+	line-height:26px;
+	background:#fff;
+	color:#135294;
+	font-weight:bold;
+	border:1px solid #fff;
+	text-align:center;
+}
+TD.td1 { PADDING-RIGHT: 3px; PADDING-LEFT: 3px; BACKGROUND: #F1F3F5; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; }
+TD.td2 { PADDING-RIGHT: 3px; PADDING-LEFT: 3px; BACKGROUND: #E4EDF9; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; }
+input { border:1px solid #999; }
+.button5
+{
+	color: #333;
+	border: 1px solid #666;
+	padding: 1px;
+	background: url(../images/btbg1.jpg) #ffffff repeat-x center top;
+}
+.button6
+{
+	color: #333;
+	border: 1px solid #666;
+	height: 25px;
+	padding: 1px;
+	background: url(../images/btbg11.jpg) #ffffff repeat-x center top;
+}
+.radio { border:none; }
+.checkbox { border:none; }
+.helplink{
+	CURSOR: help;
+}
+.menuskin {
+
+	BORDER: #666666 1px solid; VISIBILITY: hidden; FONT: 12px Verdana;
+
+	POSITION: absolute; 
+
+	BACKGROUND-COLOR:#EFEFEF;
+
+	background-image:url("../skins/default/dvmenubg3.gif");
+
+	background-repeat : repeat-y;
+
+	}
+
+.menuskin A {
+
+	PADDING-RIGHT: 10px; PADDING-LEFT: 25px; COLOR: black; TEXT-DECORATION: none; behavior:url(inc/noline.htc);
+
+	}
+
+#mouseoverstyle {
+
+	BACKGROUND-COLOR: #C9D5E7; margin:2px; padding:0px; border:red 1px solid;
+
+	}
+
+#mouseoverstyle A {
+
+	COLOR: black
+
+}
+
+.menuitems{
+
+	margin:2px;padding:1px;word-break:keep-all;
+
+}
+.title{font:14px;}
+.font1{color:#AAAAAA;}
+.font2{color:red;}
+
+.TextBoxFocus{border:1px solid #339900;background-color:#FFFFF0;}
+
+/**/
+.input { border-bottom:1px solid #BDC5CA; border-right:1px solid #BDC5CA; border-top:1px solid #6F787E; border-left:1px solid #6F787E; padding:3px 2px; font-size:12px; }
+.textbox { border-bottom:1px solid #BDC5CA; border-right:1px solid #BDC5CA; border-top:1px solid #6F787E; border-left:1px solid #6F787E; padding:3px 2px; font-size:12px; }
+.input0{background:url("/images/button_bg.gif");border:1px solid #BDC5CA}
+.button { height:28px; line-height:28px; border:1px solid #C6D2E3; background:url("/images/button_bg.gif"); font-size:12px; }
+.button_on { background:url("/images/button_bg2.gif"); border:1px solid #c3a336; }
+.input_on { background:url("/images/button_bg2.gif"); border:1px solid #c3a336; }
+.validatorCalloutHighlight 
+{
+    background-color: lemonchiffon; 
+    font-size:16px;
+}
+.MyCalendar .ajax__calendar_container {
+    border:1px solid #646464;
+    background-color: lemonchiffon;
+    color: red;
+}
+.yellowbutton
+{
+	padding: 1px;
+	color: #333;
+	border: 1px solid #C4A330;
+	height: 25px;
+	background: url(../images/btbg2.jpg) repeat-x center top;
+}
+/*Modal Popup*/
+.modalBackground {
+	background-color:white;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+
+.td4line { height:24px; line-height:20px; background:#EEF7FD; font-size:12px; border:1px solid #fff; color:#135294; padding:2px;}
+.td5 { height:24px; line-height:20px; background:#F1F3F5; font-size:12px; border:1px solid #fff; color:#135294; padding:2px; }
+
+.main_panel{
+width:100%;
+height:500px;
+vertical-align:middle;
+text-align:center;
+padding-top:100px;
+}
